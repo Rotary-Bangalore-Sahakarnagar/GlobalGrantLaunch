@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Vilaka";
+    src: url('Fonts/Vilaka.ttf');
+}
+
+@font-face {
+    font-family: 'Lemosty';
+    src: url('Fonts/Lemosty.otf');
+}
+
+.invite {
+    font-weight: 200;
+    font-family: "Lemosty";
+    font-size: 5.639vw;
+    text-align: center;
+}
+
+.invite2 {
+    font-weight: 200;
+    font-family: "Lemosty";
+    font-size: 3.389vw;
+    text-align: center;
+}
+
+.Daytime {
+    font-weight: 180;
+    font-family: "Lemosty";
+    font-size: 5.389vw;
+    text-align: center;
+
+}
+
+#Daytimespace {
+    padding-top: 12vw;
+}
+
+.AptName{
+    font-weight: 200;
+    font-family: "Lemosty";
+    font-size: 6.389vw;
+    text-align: center;
+}
+
+.Address{
+    font-weight: 150;
+    font-family: "Lemosty";
+    font-size:2.389vw;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    padding-bottom: 2vw;
+}
+
+.headerlogos{
+    width: 10%;
+    height: 10%;
+    padding: 2.5vw;
+}
+
+#KLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Pagetwo{
+    background-color: rgb(27, 27, 27);
+}
+
+.Inaug {
+    color: white;
+    font-weight: 200;
+    font-family: "Lemosty";
+    font-size: 4.389vw;
+    text-align: center;
+    padding-top: 8vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+}
+
+.Mach1 {
+    color: white;
+    font-weight: 200;
+    font-family: "Vilaka";
+    font-size: 12.389vw;
+    text-align: center;
+    padding-top: 0vw;
+    margin:0vw;
+
+}
+.Mach2 {
+    color: white;
+    font-weight: 200;
+    font-family: "Vilaka";
+    font-size: 12.389vw;
+    text-align: center;
+    padding-top: 0vw;
+    margin:0vw;
+}
+
+.Donby {
+    color: white;
+    font-weight: 100;
+    font-family: "Lemosty";
+    font-size: 4.389vw;
+    text-align: center;
+    padding-top: 12vw;
+
+}
+
+.NameDon{
+    color: white;
+    font-weight: 100;
+    font-family: "Lemosty";
+    font-size: 5.389vw;
+    text-align: center;
+}
+
+.LocDon{
+    color: white;
+    font-weight: 10;
+    font-family: "Lemosty";
+    font-size: 4.389vw;
+    text-align: center;
+}
+
+.ImgDon1{
+    width:30%;
+    height:auto;
+    margin:4vw;
+    margin-left: 7vw;
+}
+.ImgDon2{
+    width:29%;
+    height:auto;
+    margin:4vw;
+    margin-left: 20vw;
+}
+
+.FMText{
+    color: white;
+    font-weight: 100;
+    font-family: "Lemosty";
+    font-size: 4.389vw;
+    text-align: center;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+
+}
+
+.FMImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+
+}
+

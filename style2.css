@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "Vilaka";
+    src: url('Fonts/Vilaka.ttf');
+}
+
+@font-face {
+    font-family: 'Lemosty';
+    src: url('Fonts/Lemosty.otf');
+}
+
+.invite {
+    font-weight: 100;
+    font-family: "Lemosty";
+    font-size: 2.8195vw;
+    text-align: center;
+}
+
+.invite2 {
+    font-weight: 100;
+    font-family: "Lemosty";
+    font-size: 1.6945vw;
+    text-align: center;
+}
+
+.Daytime {
+    font-weight: 90;
+    font-family: "Lemosty";
+    font-size: 2.6945vw;
+    text-align: center;
+}
+
+#Daytimespace {
+    padding-top: 6vw;
+}
+
+.AptName {
+    font-weight: 100;
+    font-family: "Lemosty";
+    font-size: 3.1945vw;
+    text-align: center;
+}
+
+.Address {
+    font-weight: 75;
+    font-family: "Lemosty";
+    font-size: 2.1945vw;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    padding-bottom: 1vw;
+}
+
+.headerlogos {
+    width: 5%;
+    height: 5%;
+    padding: 1.25vw;
+}
+
+#KLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Pagetwo {
+    background-color: rgb(27, 27, 27);
+}
+
+.Inaug {
+    color: white;
+    font-weight: 100;
+    font-family: "Lemosty";
+    font-size: 2.1945vw;
+    text-align: center;
+    padding-top: 4vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+}
+
+.Mach1 {
+    color: white;
+    font-weight: 100;
+    font-family: "Vilaka";
+    font-size: 8.1945vw;
+    text-align: center;
+    padding-top: 0vw;
+    margin: 0vw;
+}
+
+.Mach2 {
+    color: white;
+    font-weight: 100;
+    font-family: "Vilaka";
+    font-size: 8.1945vw;
+    text-align: center;
+    padding-top: 0vw;
+    margin: 0vw;
+}
+
+.Donby {
+    color: white;
+    font-weight: 50;
+    font-family: "Lemosty";
+    font-size: 2.1945vw;
+    text-align: center;
+    padding-top: 6vw;
+}
+
+.NameDon {
+    color: white;
+    font-weight: 50;
+    font-family: "Lemosty";
+    font-size: 4.6945vw;
+    text-align: center;
+}
+
+.LocDon {
+    color: white;
+    font-weight: 5;
+    font-family: "Lemosty";
+    font-size: 2.1945vw;
+    text-align: center;
+}
+
+.ImgDon {
+    display: flex;
+    justify-content: center;
+}
+
+.ImgDon1 {
+    width: 15%;
+    height: auto;
+    margin-right: 10vw;
+}
+
+.ImgDon2 {
+    width: 14.5%;
+    height: auto;
+    margin-left: 10vw;
+}
+
+
+.FMText {
+    color: white;
+    font-weight: 50;
+    font-family: "Lemosty";
+    font-size: 2.1945vw;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.FMImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+
+.RtnDG{
+    color: white;
+    font-weight: 150;
+    font-family: "Lemosty";
+    font-size: 6.1945vw;
+    text-align: center;
+    padding-top: 6vw;
+    margin: 0vw;
+
+}
+
+.DG{
+    color: white;
+    font-weight: 100;
+    font-family: "Vilaka";
+    font-size: 6.1945vw;
+    text-align: center;
+    padding-top: 0vw;
+    margin: 0vw;
+    padding-bottom: 4vw;
+}
+
+.PartneringClubs{
+    color: rgb(0, 0, 0);
+    font-weight: 150;
+    font-family: "Lemosty";
+    font-size: 6.1945vw;
+    text-align: center;
+    padding-top: 6vw;
+    margin: 0vw;
+}
+
+p {
+    height: 300px;
+    width: 700px;
+    margin: 200px auto;
+    position: relative;
+  }
+  
+  .image {
+    height: 200px;
+    position: absolute;
+    left: 0;
+    offset-path: path('m 0 50 q 50-30 100-30 t 100 30 100 0 100-30 100 30');
+    box-shadow: 1px 1px 3px #0008;
+    transition: transform .4s ease-out, offset-path .4s cubic-bezier(.77,-1.17,.75,.84),box-shadow .3s, z-index .3s;
+    z-index: 0;
+  }
+  
+  .image:hover {
+    transform: scale(2.5);
+    /* on hover, the path gets a bit shorter & flattened & shifted to left/bottom a bit for nicer movement */
+    offset-path: path('m 5 65 q 45-0 90-0 t 90 0 90 0 90-0 90 0');
+    box-shadow: 3px 4px 10px #0006;
+    z-index: 999;
+  }
+  
+  /* 3 images */
+  .image:nth-last-child(3):first-child {
+    offset-distance: 17%;
+  }
+  .image:nth-last-child(2):nth-child(2) {
+    offset-distance: 49%;
+  }
+  .image:last-child:nth-child(3) {
+    offset-distance: 81%;
+  }
+  
+  /* 4 images */
+  .image:nth-last-child(4):first-child {
+    offset-distance: 10%;
+  }
+  .image:nth-last-child(3):nth-child(2) {
+    offset-distance: 35%;
+  }
+  .image:nth-last-child(2):nth-child(3) {
+    offset-distance: 65%;
+  }
+  .image:last-child:nth-child(4) {
+    offset-distance: 90%;
+  }
+  
+  /* 5 images */
+  .image:nth-last-child(5):first-child {
+    offset-distance: 0%;
+  }
+  .image:nth-last-child(4):nth-child(2) {
+    offset-distance: 25%;
+  }
+  .image:nth-last-child(3):nth-child(3) {
+    offset-distance: 51%;
+  }
+  .image:nth-last-child(2):nth-child(4) {
+    offset-distance: 75%;
+  }
+  .images:last-child:nth-child(5) {
+    offset-distance: 100%;
+  }
